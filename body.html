@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhyNoT</title>
+    <link rel="icon" href="https://i.ibb.co/NYpGM1M/db6bd12898d78cd81397af77ec6cea24.jpg">
+</head>
+<style>
+
+.parent{
+        display: grid;
+        grid-template-columns:1fr, 1fr;
+        grid-template-rows: repeat(4,1fr);
+    }
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div3{ grid-area: 2 / 2 / 3 / 3; }
+.div4 { grid-area: 1 / 1 / 2 / 3; }
+.div5{ grid-area: 3 / 1 / 4 / 3; }
+.div6 { grid-area: 4 / 1 / 5 / 3; }
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  font-size: 10pt;
+  background-color: #1d2e1b;
+  color: white;
+  font-weight: 600;
+  padding: 5px 5px;
+}
+.main {
+  display: flex;
+}
+.header {
+  background-color: #406e526b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #00000020;
+}
+.dv_1{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.nickname {
+  font-size: 30px;
+  font-weight: 900;
+}
+.btn {
+  background-color: transparent;
+  border: 2px solid #505050;
+  color: white;
+  padding: 5px;
+  margin: 13px 2px 0 2px;
+  transition: 0.1s; 
+  display: flex;
+  align-items: center;
+  justify-content: center;}
+.btn:hover {
+  font-size: 15px;
+  background-color: #1e580d8a;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  background: #00000040;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 5px #00000020;
+  font-family: Mont;
+}
+.htmlcode{
+  display: flex;
+  flex-direction: row;
+}
+
+.blink{
+  animation: blinker 1s ease-in-out infinite;
+}
+.text{
+  margin: 5px;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.div4{border-radius: 20px 20px 5px 5px;}
+.div2{border-radius: 5px 5px 5px 5px;}
+.div3{border-radius: 5px 5px 5px 5px;}
+.div5{border-radius: 5px 5px  20px 20px;}
+.text{
+  font-size: 12px;
+}
+a{
+  color: white;
+  text-decoration: none;
+  
+}
+
+</style>
+<body><div class="div1 header">
+    <div class="dv_1">
+        <img class="logo" src="https://i.ibb.co/NYpGM1M/db6bd12898d78cd81397af77ec6cea24.jpg" alt="db6bd12898d78cd81397af77ec6cea24"> 
+        <h1 class="nickname">WhyNoT</h1>
+        
+    </div>
+</div>
+<div class="text">    
+    &lt;!<span style="color: rgb(218, 56, 83) ;">DOCTYPE</span><span style="color:lime ;"> html</span>&gt; <br>
+    &lt;<span style="color: rgb(218, 56, 83);">html</span> <span style="color:lime ;"> lang</span>=<span style="color:rgb(218, 216, 71) ;">"en"</span>&gt;
+    <br>...
+    <br>
+    &lt;<span style="color: rgb(218, 56, 83);">div</span>&gt; <br>
+    Hello, I'm a ~16 years old dev! <br> I fell in love with coding.
+    <br>
+    Love playin computer games <br> and listen music like phonk &lt;3
+    <br>
+    Just a little site with html and css :)<span class="blink">|</span>
+    <br>
+    &lt;<span style="color: rgb(218, 56, 83);">/div</span>&gt;
+    <br>...
+</div>
+    <div class="parent ">
+        <a href="https://steamcommunity.com/id/whynotexplored/" class="div2 btn">
+        <p class="j">
+            Steam
+         </p>
+        </a>
+    <a href="https://t.me/wtduyuwnt"class="div3 btn">
+        <p class="j">
+            WhyNoT
+         </p>
+        </a>
+    <a href="https://open.spotify.com/user/3d9kfsgy52hzfpxg9wcm5wn3m?si=HVdgDQIHRrGsAhxJTI9a2g" class="div4 btn">
+            <p class="j">Spotify
+            </p>
+    </a> 
+    <div class="div5 btn">
+        <p class="j">Just button .-. </p>
+    </div>
+    <div class="div6 footer">
+        <p>WhyNoT</p>
+        <p style="color:rgba(211, 245, 188, 0.719) ;">live's is not for forever* 
+            <br>
+             Web design, JavaScript, ReactJs, NodeJs and etc.</p>
+            </div>
+    </div>
+</body>
+</html>
