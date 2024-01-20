@@ -25,11 +25,20 @@
 
 body {
   font-size: 10pt;
-  background-color: #1d2e1b;
-  color: white;
+  background: 
+		linear-gradient(rgba(87, 55, 7, 0.7), rgba(0, 0, 0, 0.8)), 
+		url(https://i.ibb.co/Zd7G1x5/1674536787-catherineasquithgallery-com-p-anime-fon-korichnevii-estetika-33.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;    
+  
+  color: rgba(255, 255, 255, 0.651);
   font-weight: 600;
   padding: 5px 5px;
 }
+
+
 .main {
   display: flex;
 }
@@ -93,7 +102,11 @@ body {
   animation: blinker 1s ease-in-out infinite;
 }
 .text{
+  
   margin: 5px;
+}
+span, br{
+  font-size: large;
 }
 @keyframes blinker {
   50% {
